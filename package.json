@@ -1,0 +1,29 @@
+{
+  "name": "web-engine",
+  "version": "0.0.1",
+  "description": "3d web engine based on webgl",
+  "main": "index.js",
+  "source": "./src/index.html",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "parcel serve --dist-dir ./build --port 3001 --open --lazy",
+    "build": "parcel build --dist-dir ./build",
+    "test": "echo \"Error: what does the fox say?\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "webgl",
+    "3d"
+  ],
+  "author": "smail000 and other",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.9.3",
+    "@parcel/transformer-inline-string": "^2.9.3",
+    "@types/node": "^20.4.7",
+    "typescript": "^5.1.6"
+  }
+}
