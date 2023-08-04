@@ -15,8 +15,8 @@
 Необходимо установить NodeJS >16v. Далее следуйте командам:
 
 ```bash
-git clone ...
-cd ...
+git clone https://github.com/608-room-s-team/web-engine.git
+cd web-engine
 npm i
 ```
 
